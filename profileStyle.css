@@ -1,5 +1,5 @@
 p{
-    font-size: 1.2em
+    font-size: 1em
 }
  
 body{
@@ -97,6 +97,7 @@ img {
 
 .profile{
   border-radius: 50%;   
+  padding: 8px;
 }
 
 
