@@ -6,7 +6,7 @@ body{
  
     background-color: rgb(196, 218, 205);
     color: rgb(48, 10, 80);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif, Arial ;
     font-size: 16px;
     font-weight: lighter
 }
@@ -17,10 +17,11 @@ h1{
 
 .box-2{
     background-color: rgb(92, 57, 97);
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     color: rgb(238, 217, 255);
 }
+
 
 .box-3{
     padding: 20px;
@@ -37,9 +38,9 @@ h1{
  
  
 #myform input[type ="text"]{
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     width: 100%
 }
  
@@ -74,6 +75,8 @@ nav a:hover{
 nav{
     background-color: rgb(126, 201, 155);
     padding: 2px;
+    position: sticky;
+    top: 0;
 }
 
 
