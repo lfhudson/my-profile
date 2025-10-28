@@ -15,11 +15,21 @@ h1{
     color: #39023b;
 }
 
+.box-1{
+    display: inline-flex;
+    align-items: center;
+    height: max-content;
+    
+}
+
 .box-2{
-    background-color: rgb(92, 57, 97);
+    background-color: rgb(57, 97, 78);
     padding: 10px;
     margin: 10px;
-    color: rgb(238, 217, 255);
+    color: rgb(233, 253, 231);
+    height: 100px;
+    border-radius: 4%; 
+    width: 280px;
 }
 
 
@@ -27,10 +37,11 @@ h1{
     padding: 20px;
     margin: 10px;
     color: rgb(45, 37, 53);
+    border-radius: 4%; 
 }
  
 #myform{
-    background-color: rgb(206, 151, 188);
+    background-color: rgb(173, 207, 187);
     color: rgb(47, 7, 63);
     padding: 50px;
     margin: 20px;
@@ -47,11 +58,22 @@ h1{
 #myform input[type = "submit"], .button {
     padding: 8px;
     border: none;
-    background-color: rgb(47, 11, 63);
+    background-color: rgb(5, 49, 11);
     color: whitesmoke
 }
- 
-.flex-container {
+
+
+
+#navbar a:hover{
+    color: rgb(112, 255, 196)
+}
+
+
+#navbar{
+    background-color: rgb(173, 207, 187);
+    padding: 2px;
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,36 +81,13 @@ h1{
     gap: 10vw;
 }
 
-.flex-container li{
-    list-style: none;
-} 
-
-a{
-    text-decoration: none;
-    color: rgb(123, 32, 175)
-}
-
-nav a:hover{
-    color: rgb(112, 255, 196)
-}
-
-nav{
-    background-color: rgb(126, 201, 155);
-    padding: 2px;
-    position: sticky;
-    top: 0;
-}
-
-#navbar{
-    position: sticky;
-    top: 0;
-}
-
 #navbar a{
   float: left;
   display: block;
   text-align: center;
   text-decoration: none;
+  text-decoration: none;
+  color: rgb(38, 9, 54)
 }
 
 img {
